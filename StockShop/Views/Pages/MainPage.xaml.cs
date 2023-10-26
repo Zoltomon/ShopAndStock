@@ -24,5 +24,15 @@ namespace StockShop.Views.Pages
         {
             InitializeComponent();
         }
+
+        private void BtnMain_Click(object sender, RoutedEventArgs e)
+        {
+
+        }
+
+        private void BtnProduct_Click(object sender, RoutedEventArgs e)
+        {
+
+        }
     }
 }

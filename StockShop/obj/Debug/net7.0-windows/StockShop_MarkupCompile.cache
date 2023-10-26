@@ -10,11 +10,11 @@ none
 false
 TRACE;DEBUG;NET;NET7_0;NETCOREAPP
 C:\Users\dorzh\source\repos\StockShop\StockShop\App.xaml
-3-479727180
+4136438217
 
-6784456180
+71820508209
 198-200740077
-MainWindow.xaml;Views\Window\AutorizationWindow.xaml;Views\Window\RegistrationWindow.xaml;
+MainWindow.xaml;Views\Pages\MainPage.xaml;Views\Window\AutorizationWindow.xaml;Views\Window\RegistrationWindow.xaml;
 
 False
 

@@ -23,3 +23,5 @@ C:\Users\dorzh\source\repos\StockShop\StockShop\obj\Debug\net7.0-windows\refint\
 C:\Users\dorzh\source\repos\StockShop\StockShop\obj\Debug\net7.0-windows\StockShop.pdb
 C:\Users\dorzh\source\repos\StockShop\StockShop\obj\Debug\net7.0-windows\StockShop.genruntimeconfig.cache
 C:\Users\dorzh\source\repos\StockShop\StockShop\obj\Debug\net7.0-windows\ref\StockShop.dll
+C:\Users\dorzh\source\repos\StockShop\StockShop\obj\Debug\net7.0-windows\Views\Pages\MainPage.g.cs
+C:\Users\dorzh\source\repos\StockShop\StockShop\obj\Debug\net7.0-windows\Views\Pages\MainPage.baml

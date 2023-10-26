@@ -5,8 +5,30 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:StockShop"
         mc:Ignorable="d"
+        MouseDown="Window_MouseDown"
+        ResizeMode="NoResize"
+        WindowStyle="None"
         Title="MainWindow" Height="450" Width="800">
     <Grid>
-
+        <Grid.RowDefinitions>
+            <RowDefinition Height="20"/>
+            <RowDefinition Height="*"/>
+        </Grid.RowDefinitions>
+        <StackPanel Grid.Row="0" Background="#0272BA" Margin="0" Height="Auto">
+            <StackPanel Orientation="Horizontal" HorizontalAlignment="Right">
+                <Button Width="20" Margin="0,0,2,0" Background="Transparent" Name="BtnDashWndw" Click="BtnDashWndw_Click" BorderThickness="0" Height="20" HorizontalAlignment="Right" VerticalAlignment="Center">
+                    <Image Source="/Resource/IconDash.png"/>
+                </Button>
+                <Button Width="20" Margin="0,0,2,0" Background="Transparent" Name="BtnMaxWndw" Click="BtnMaxWndw_Click" Height="20" BorderThickness="0" VerticalAlignment="Center" HorizontalAlignment="Right">
+                    <Image Source="/Resource/IconMaxWndw.png"/>
+                </Button>
+                <Button Width="20" Margin="0,0,2,0" Background="Transparent" Name="BtnExtWndw" Click="BtnExtWndw_Click" BorderThickness="0" Height="20" HorizontalAlignment="Right" VerticalAlignment="Center">
+                    <Image Source="/Resource/IconExit.png"/>
+                </Button>
+            </StackPanel>
+        </StackPanel>
+        <Frame
+            NavigationUIVisibility="Hidden"
+            Name="FrmMain"/>
     </Grid>
 </Window>

@@ -56,11 +56,6 @@ namespace StockShop.Views.Window
             }
         }
 
-        private void BtnReg_Click(object sender, RoutedEventArgs e)
-        {
-
-        }
-
         private void BtnAuto_Click(object sender, RoutedEventArgs e)
         {
 
@@ -71,6 +66,20 @@ namespace StockShop.Views.Window
             if(e.LeftButton == MouseButtonState.Pressed)
             {
                 DragMove();
+            }
+        }
+
+        private void BtnBack_Click(object sender, RoutedEventArgs e)
+        {
+            try
+            {
+                AutorizationWindow autorizationWindow = new AutorizationWindow();
+                autorizationWindow.Show();
+                this.Close();
+            }
+            catch(Exception ex)
+            {
+                MessageBox.Show(ex.Message);
             }
         }
     }
