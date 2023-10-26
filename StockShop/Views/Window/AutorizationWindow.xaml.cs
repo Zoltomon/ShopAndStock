@@ -91,10 +91,20 @@ namespace StockShop.Views.Window
                             if (userResponseList.Count > 0)
                             {
                                 var userStatus = userResponseList[0].UserStatus;
+                                var userRole = userResponseList[0].UserRole;
                                 switch (userStatus)
                                 {
                                     case "Аккаунт активен":
-                                        NavigateClass.navigate.Navigate(new MainPage());
+                                        switch (userRole)
+                                        {
+                                            case "Администратор системы":
+                                                MessageBox.Show("Урааа");
+                                                break;
+                                            case "Работник склада":
+                                                break;
+                                            case "Менеджер склада":
+                                                break;
+                                        }
                                         break;
                                     case "Аккаунт неактивен":
                                         MessageBox.Show("Ваш аккаунт заблокирован\nОбратитесь к администратору вашей системы");

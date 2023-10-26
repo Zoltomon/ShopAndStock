@@ -56,11 +56,6 @@ namespace StockShop.Views.Window
             }
         }
 
-        private void BtnAuto_Click(object sender, RoutedEventArgs e)
-        {
-
-        }
-
         private void Window_MouseDown(object sender, MouseButtonEventArgs e)
         {
             if(e.LeftButton == MouseButtonState.Pressed)
@@ -78,6 +73,18 @@ namespace StockShop.Views.Window
                 this.Close();
             }
             catch(Exception ex)
+            {
+                MessageBox.Show(ex.Message);
+            }
+        }
+
+        private void BtnReg_Click(object sender, RoutedEventArgs e)
+        {
+            try
+            {
+
+            }
+            catch (Exception ex)
             {
                 MessageBox.Show(ex.Message);
             }

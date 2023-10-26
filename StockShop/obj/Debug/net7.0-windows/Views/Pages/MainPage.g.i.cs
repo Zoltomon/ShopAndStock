@@ -77,7 +77,7 @@ namespace StockShop.Views.Pages {
                 return;
             }
             _contentLoaded = true;
-            System.Uri resourceLocater = new System.Uri("/StockShop;V1.0.0.0;component/views/pages/mainpage.xaml", System.UriKind.Relative);
+            System.Uri resourceLocater = new System.Uri("/StockShop;component/views/pages/mainpage.xaml", System.UriKind.Relative);
             
             #line 1 "..\..\..\..\..\Views\Pages\MainPage.xaml"
             System.Windows.Application.LoadComponent(this, resourceLocater);
