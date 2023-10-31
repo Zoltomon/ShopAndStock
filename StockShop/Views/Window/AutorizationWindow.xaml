@@ -6,6 +6,7 @@
         xmlns:local="clr-namespace:StockShop.Views.Window"
         mc:Ignorable="d"
         ResizeMode="NoResize"
+        WindowStartupLocation="CenterScreen"
         MouseDown="Window_MouseDown"
         WindowStyle="None"
         Title="AutorizationWindow" Height="550" Width="400">

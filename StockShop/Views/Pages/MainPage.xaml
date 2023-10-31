@@ -37,11 +37,14 @@
             <Button Height="30" Margin="10,15,10,0" FontSize="16" Style="{StaticResource RndBtnStlMain}">
                 <TextBlock Text="Поставщики" Margin="6,0,0,0" FontFamily="Roboto Condensed"/>
             </Button>
+            <Button Visibility="Collapsed" Height="30" Margin="10,15,10,0" FontSize="16" Style="{StaticResource RndBtnStlMain}">
+                <TextBlock Text="Пользователи" Margin="6,0,0,0" FontFamily="Roboto Condensed"/>
+            </Button>
         </StackPanel>
-        <StackPanel Grid.Row="1" Grid.Column="1">
-            <Frame
-        Name="FrmMainPage"
-        NavigationUIVisibility="Hidden"/>
-        </StackPanel>
+        <Frame
+            Grid.Column="1"
+            Grid.Row="1"
+            Name="FrmMainPage"
+            NavigationUIVisibility="Hidden"/>
     </Grid>
 </Page>

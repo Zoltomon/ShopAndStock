@@ -19,16 +19,16 @@ namespace WebAPI.Classes.AutoReg
 
             if (userProfile != null && BCrypt.Net.BCrypt.Verify(Password, userProfile.Password)) {
                 List<UserProfileDTO> data = _context.UserProfiles
-     .Where(u => u.Login == Login)
-     .Select(x => new UserProfileDTO
-     {
-         UserLogin = x.Login,
-         UserPassword = x.Password,
-         UserRole = x.Role.Name,
-         UserStatus = x.Status.Name,
-         UserEmail = x.Email,
-         UserTelephone = x.Telephone,
-     }).ToList();
+                    .Where(u => u.Login == Login)
+                    .Select(x => new UserProfileDTO
+                    {
+                        UserLogin = x.Login,
+                        UserPassword = x.Password,
+                        UserRole = x.Role.Name,
+                        UserStatus = x.Status.Name,
+                        UserEmail = x.Email,
+                        UserTelephone = x.Telephone,
+                    }).ToList();
                 return data;
             }
             else

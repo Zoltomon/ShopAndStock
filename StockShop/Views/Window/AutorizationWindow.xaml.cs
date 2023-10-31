@@ -71,8 +71,6 @@ namespace StockShop.Views.Window
 
         private async void BtnAuto_Click(object sender, RoutedEventArgs e)
         {
-            try
-            {
                 try
                 {
                     if (TxbLog.Text == null || TxbPass.Password == null)
@@ -98,7 +96,9 @@ namespace StockShop.Views.Window
                                         switch (userRole)
                                         {
                                             case "Администратор системы":
-                                                MessageBox.Show("Урааа");
+                                                MainWindow mainWindow = new MainWindow();
+                                                mainWindow.Show();
+                                                this.Close();
                                                 break;
                                             case "Работник склада":
                                                 break;
@@ -123,11 +123,6 @@ namespace StockShop.Views.Window
                 {
                     MessageBox.Show(ex.Message);
                 }
-            }
-            catch (Exception ex)
-            {
-                MessageBox.Show(ex.Message);
-            }
         }
 
         private void BtnReg_Click(object sender, RoutedEventArgs e)

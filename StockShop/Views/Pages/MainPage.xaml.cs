@@ -1,4 +1,5 @@
-﻿using System;
+﻿using StockShop.Classes;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -23,11 +24,13 @@ namespace StockShop.Views.Pages
         public MainPage()
         {
             InitializeComponent();
+            NavigateClass.navigate = FrmMainPage;
+            FrmMainPage.Navigate(new HomePage());
         }
 
         private void BtnMain_Click(object sender, RoutedEventArgs e)
         {
-
+            NavigateClass.navigate.Navigate(new HomePage());
         }
 
         private void BtnProduct_Click(object sender, RoutedEventArgs e)

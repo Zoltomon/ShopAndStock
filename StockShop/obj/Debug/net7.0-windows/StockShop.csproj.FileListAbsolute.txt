@@ -28,3 +28,10 @@ C:\Users\dorzh\source\repos\StockShop\StockShop\obj\Debug\net7.0-windows\Views\P
 C:\Users\dorzh\source\repos\StockShop\StockShop\bin\Debug\net7.0-windows\Newtonsoft.Json.dll
 C:\Users\dorzh\source\repos\StockShop\StockShop\obj\Debug\net7.0-windows\StockShop.csproj.AssemblyReference.cache
 C:\Users\dorzh\source\repos\StockShop\StockShop\obj\Debug\net7.0-windows\StockShop.csproj.CopyComplete
+C:\Users\dorzh\source\repos\StockShop\StockShop\obj\Debug\net7.0-windows\Views\Pages\UsersPage.g.cs
+C:\Users\dorzh\source\repos\StockShop\StockShop\obj\Debug\net7.0-windows\Views\Pages\UsersPage.baml
+C:\Users\dorzh\source\repos\StockShop\StockShop\bin\Debug\net7.0-windows\OxyPlot.dll
+C:\Users\dorzh\source\repos\StockShop\StockShop\bin\Debug\net7.0-windows\OxyPlot.Wpf.dll
+C:\Users\dorzh\source\repos\StockShop\StockShop\bin\Debug\net7.0-windows\OxyPlot.Wpf.Shared.dll
+C:\Users\dorzh\source\repos\StockShop\StockShop\obj\Debug\net7.0-windows\Views\Pages\HomePage.g.cs
+C:\Users\dorzh\source\repos\StockShop\StockShop\obj\Debug\net7.0-windows\Views\Pages\HomePage.baml
